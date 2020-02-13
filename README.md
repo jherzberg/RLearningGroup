@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
+## Welcome to the ChiHackNight R Learning Group!
 
-You can use the [editor on GitHub](https://github.com/jherzberg/RLearningGroup/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Please read to quick start! Each week we read one chapter and then discuss it on Tuesday. You can catch up quickly by reading below and following the exercises. If you want to study the material more closely, please read any chapters you have missed. Feel free to contact me, jlherzberg, on slack with questions.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+We are using this [textbook](https://d1b10bmlvqabco.cloudfront.net/attach/ighbo26t3ua52t/igp9099yy4v10/igz7vp4w5su9/OReilly_HandsOn_Programming_with_R_2014.pdf).
 
-### Markdown
+Other links: [FAQ](404)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Chapter 0
+You don't need to download R to participate in the weekly discussion. You do need to download R and RStudio to code on your own. Please watch this [video](https://www.youtube.com/watch?v=cX532N_XLIs) to download R and RStudio.
 
-```markdown
-Syntax highlighted code block
+### Chapter 1
+1. Add `6` and `10` together with R.
+2. Set the object `x` equal to 8.
+3. Set the object `die` equal to the range of numbers `1` through `6`.
+4. Compare `die` to the range numbers `5` through `6`. 
+5. Compute the `mean` of `5` and `8`.
+6. Write a comment with `#`.
+7. Write a function that rolls two dice with the `sample` function and returns their `sum`.
+8. Rewrite that function with an argument parameter for the number of dice to roll. 
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jherzberg/RLearningGroup/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### Chapter 2
