@@ -1,19 +1,13 @@
-# Frequently Asked Questions
-
-## What is R?
-R is a programming language. 
-
-## What is R Studio?
-R Studio is an Integrated Development Environment (IDE) for R. 
-
-## What does Integrated Development Environment mean?
-R Studio is a way for you to _run_ R code. If you type R commands in Microsoft Word, nothing will happen. If you type them in RStudio, something will.
-
-## Who is Josh and who put him in charge?
-Josh is a data scientist with a small real estate analytics company. He started this group so he gets to lead it for now. He wants to learn R for graduate school which he hopes to attend this fall. He knows Python pretty well.
-
-## Why should I learn R?
-R is a great language for doing replicable data analysis. This might be a regression, a visualization, an exploration, anything! It's not so great for building pipeines and repeated processes.
-
-## Can I contribute to the group page?
-Yes! But you need to make a branch and a pull request. To do this, you'll need to learn [some of the basics of git](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)  
+<h1 id="frequently-asked-questions">Frequently Asked Questions</h1>
+<h2 id="what-is-r-">What is R?</h2>
+<p>R is a programming language. </p>
+<h2 id="what-is-r-studio-">What is R Studio?</h2>
+<p>R Studio is an Integrated Development Environment (IDE) for R. </p>
+<h2 id="what-does-integrated-development-environment-mean-">What does Integrated Development Environment mean?</h2>
+<p>R Studio is a way for you to <em>run</em> R code. If you type R commands in Microsoft Word, nothing will happen. If you type them in RStudio, something will.</p>
+<h2 id="who-is-josh-and-who-put-him-in-charge-">Who is Josh and who put him in charge?</h2>
+<p>Josh is a data scientist with a small real estate analytics company. He started this group so he gets to lead it for now. He wants to learn R for graduate school which he hopes to attend this fall. He knows Python pretty well.</p>
+<h2 id="why-should-i-learn-r-">Why should I learn R?</h2>
+<p>R is a great language for doing replicable data analysis. This might be a regression, a visualization, an exploration, anything! It&#39;s not so great for building pipeines and repeated processes.</p>
+<h2 id="can-i-contribute-to-the-group-page-">Can I contribute to the group page?</h2>
+<p>Yes! But you need to make a branch and a pull request. To do this, you&#39;ll need to learn <a href="https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests">some of the basics of git</a>  </p>
