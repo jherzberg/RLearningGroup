@@ -1,4 +1,4 @@
-## Welcome to the ChiHackNight R Learning Group!
+## Welcome to!
 
 Read this page to join our group! Each week we read one textbook chapter and then discuss it on Tuesday. You can catch up quickly by reading this page and following the exercises. If you want to study the material more closely, please read any chapters you missed. Feel free to contact me, JLHerzberg, on slack with questions.
 
