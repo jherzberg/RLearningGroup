@@ -4,7 +4,7 @@ Read this page to join our group! Each week we read one textbook chapter and the
 
 We are using this [textbook](https://d1b10bmlvqabco.cloudfront.net/attach/ighbo26t3ua52t/igp9099yy4v10/igz7vp4w5su9/OReilly_HandsOn_Programming_with_R_2014.pdf).
 
-Other links: [FAQ](https://jherzberg.github.io/RLearningGroup/faq.html)
+Other links: [FAQ](https://jlherzberg.github.io/RLearningGroup/faq.html)
 
 ### Chapter 0
 You don't need to download R to participate in the weekly discussion. You do need to download R and RStudio to code on your own. Please watch this [video](https://www.youtube.com/watch?v=cX532N_XLIs) to download R and RStudio.
