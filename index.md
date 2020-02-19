@@ -20,8 +20,8 @@ You don't need to download R to participate in the weekly discussion. You do nee
 8. Rewrite that function with an argument parameter for the number of dice to roll. 
 
 ### Chapter 2
-1. Install ggplot, which includes qplot.
-2. Import qplot.
+1. Install `ggplot`, which includes `qplot`.
+2. Import `qplot`.
 3. Plot a scatter plot.
 4. Plot a histogram.
 5. Explain how the `binwidth` argument works.
