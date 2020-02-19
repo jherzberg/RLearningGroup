@@ -3,4 +3,4 @@
 
 The R Learning Group at ChiHackNight.org
 
-Please visit our [website](https://jherzberg.github.io/RLearningGroup/)
+Please visit our [website](https://jlherzberg.github.io/RLearningGroup/)
