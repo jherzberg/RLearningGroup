@@ -11,7 +11,7 @@ You don't need to download R to participate in the weekly discussion. You do nee
 
 ### Chapter 1
 1. Add `6` and `10` together with R.
-2. Set the object `x` equal to 8.
+2. Set the object `x` equal to `8`.
 3. Set the object `die` equal to the range of numbers `1` through `6`.
 4. Compare `die` to the range numbers `5` through `6`. 
 5. Compute the `mean` of `5` and `8`.
@@ -20,3 +20,15 @@ You don't need to download R to participate in the weekly discussion. You do nee
 8. Rewrite that function with an argument parameter for the number of dice to roll. 
 
 ### Chapter 2
+1. Install ggplot, which includes qplot.
+2. Import qplot.
+3. Plot a scatter plot.
+4. Plot a histogram.
+5. Explain how the `binwidth` argument works.
+6. Use the `replicate` function to produce 10 rolls of a die, using `roll` from Chapter 1. 
+7. Use the `replicate` function to produce an array.
+8. Use the `roll` function 1000 times to check the fairness of your dice.
+9. Use the `prob` argument of the `sample` function to weight your dice.
+10. Use `qplot` to plot the histogram of results of your weighted dice.
+
+### Chapter 3
