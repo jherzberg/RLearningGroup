@@ -11,52 +11,56 @@ You don't need to download R to participate in the weekly discussion. You do nee
 
 ### Chapter 1
 <details>
-  <summary>1. Add 6 and 10 together with R.</summary>
+  <summary>1. Add `6` and `10` together with R.</summary>
   
-    6+10
+    `6+10`
 </details>
 <details>
-  <summary>2. Set the object x equal to 8.</summary>
+  <summary>2. Set the object `x` equal to `8`.</summary>
   
-    x <- 8 or x = 8
+    `x <- 8 or x = 8`
 </details>
 <details>
-  <summary>3. Set the object die equal to the range of numbers 1 through 6.</summary>
+  <summary>3. Set the object die equal to the range of numbers `1` through `6`.</summary>
   
-    die <- 1:6
+    `die <- 1:6`
 </details>
 <details>
-  <summary>4. Compare die to the range numbers 5 through 6. </summary>
+  <summary>4. Compare die to the range numbers `5` through `6`. </summary>
   
-    die == 5:6
+    `die == 5:6`
 </details>
 <details>
-  <summary>5. Compute the mean of 5 and 8.</summary>
+  <summary>5. Compute the mean of `5` and `8`.</summary>
   
-    mean(8, 5)
+    `mean(8, 5)`
 </details>
 <details>
-  <summary>6. Write a comment with #.</summary>
+  <summary>6. Write a comment with `#`.</summary>
   
-    # i'm a comment!
+    `# i'm a comment!`
 </details>
 <details>
-  <summary>7. Write a function that rolls two dice with the sample function and returns their sum.</summary>
+  <summary>7. Write a function that rolls two dice with the `sample` function and returns their sum.</summary>
   
+    ```
     roll <- function() {
      die <- 1:6
      dice <- sample(die, size = 2, replace= TRUE)
      sum(dice)
-    }   
+    }
+    ```
 </details>
 <details>
   <summary>8. Rewrite that function with an argument parameter for the number of dice to roll. </summary>
   
+    ```
     roll <- function(num_dice=2) {
      die <- 1:6
      dice <- sample(die, size = num_dice, replace= TRUE)
      sum(dice)
     }
+    ```
 </details>
 
 ### Chapter 2
