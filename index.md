@@ -11,37 +11,37 @@ You don't need to download R to participate in the weekly discussion. You do nee
 
 ### Chapter 1
 <details>
-  <summary>1. Add <code>6</code> and <code>10</code> together with R.</summary>
+  <summary>Add <code>6</code> and <code>10</code> together with R.</summary>
   
     <code>6+10</code>
 </details>
 <details>
-  <summary>2. Set the object <code>x</code> equal to <code>8</code>.</summary>
+  <summary>Set the object <code>x</code> equal to <code>8</code>.</summary>
   
     <code>x <- 8 </code> or <code>x = 8</code>
 </details>
 <details>
-  <summary>3. Set the object die equal to the range of numbers <code>1</code> through <code>6</code>.</summary>
+  <summary>Set the object die equal to the range of numbers <code>1</code> through <code>6</code>.</summary>
   
     <code>die <- 1:6</code>
 </details>
 <details>
-  <summary>4. Compare die to the range numbers <code>5</code> through <code>6</code>. </summary>
+  <summary>Compare die to the range numbers <code>5</code> through <code>6</code>. </summary>
   
     <code>die == 5:6</code>
 </details>
 <details>
-  <summary>5. Compute the mean of <code>5</code> and <code>8</code>.</summary>
+  <summary>Compute the mean of <code>5</code> and <code>8</code>.</summary>
   
     <code>mean(8, 5)</code>
 </details>
 <details>
-  <summary>6. Write a comment with <code>#</code>.</summary>
+  <summary>Write a comment with <code>#</code>.</summary>
   
     <code># i'm a comment!</code>
 </details>
 <details>
-  <summary>7. Write a function that rolls two dice with the <code>sample</code> function and returns their sum.</summary>
+  <summary>Write a function that rolls two dice with the <code>sample</code> function and returns their sum.</summary>
   
     <code>
     roll <- function() {
@@ -52,7 +52,7 @@ You don't need to download R to participate in the weekly discussion. You do nee
     </code>
 </details>
 <details>
-  <summary>8. Rewrite that function with an argument parameter for the number of dice to roll. </summary>
+  <summary>Rewrite that function with an argument parameter for the number of dice to roll. </summary>
   
     <code>
     roll <- function(num_dice=2) {
