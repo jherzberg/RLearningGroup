@@ -18,7 +18,7 @@ You don't need to download R to participate in the weekly discussion. You do nee
 <details>
   <summary>2. Set the object <code>x</code> equal to <code>8</code>.</summary>
   
-    <code>x <- 8 or x = 8</code>
+    <code>x <- 8 </code> or <code>x = 8</code>
 </details>
 <details>
   <summary>3. Set the object die equal to the range of numbers <code>1</code> through <code>6</code>.</summary>
