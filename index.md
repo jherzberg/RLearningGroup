@@ -133,3 +133,132 @@ You don't need to download R to participate in the weekly discussion. You do nee
 </details>
 
 ### Chapter 3
+<details>
+  <summary>Check whether an object is a vector, atomic, and then find its length.</summary>
+  
+    <code>
+    v = c(1, 2, 3, 4)
+    is.vector(v)
+    is.atomic(v)
+    length(v)
+    </code>
+</details>
+<details>
+  <summary>Make an atomic vector of ints, characters, logicals, and doubles.</summary>
+  
+    <code>
+    x = c(1L, 2L, 3L, 4L)
+    x = c("1", "2", "3", "4")
+    x = c(TRUE, FALSE, FALSE, TRUE)
+    x = c(1, 2, 3, 4)
+    </code>
+</details>
+<details>
+  <summary>Make an atomic vector of ints, text, and doubles.</summary>
+  
+    <code>
+    x = c(1L, 2L, 3L, 4L)
+    x = c("1", "2", "3", "4")
+    x = c(1, 2, 3, 4)
+    </code>
+</details>
+<details>
+  <summary>Make an atomic vector of complex and raws.</summary>
+  
+    <code>
+    x = c(i, i, i, i)
+    x = raw(4)
+    </code>
+</details>
+<details>
+  <summary>Give die <code>names</code> attribute. Then remove them</summary>
+  
+    <code>
+    die <- 1:6
+	names(die) <- c("one", "two", "three", "four", "five", "six")
+	die
+    </code>
+    <code>
+    names(die) <- NULL
+    </code>
+</details>
+<details>
+  <summary>Change die to a <code>2</code> (rows) by <code>3</code> (columns) matrix with <code>dim</code>.</summary>
+  
+    <code>
+    dim(die) <- c(2, 3)
+    </code>
+</details>
+<details>
+  <summary>Create a <code>matrix</code> from die with <code>2</code> rows and <code>3</code> (columns).</summary>
+  
+    <code>
+    m <- matrix(die, nrow = 2)
+    </code>
+</details>
+<details>
+  <summary>Create an <code>array</code> from die with <code>2</code> rows and <code>3</code> columns.</summary>
+  
+    <code>
+    ar <- array(die, dim = c(2, 3))
+    </code>
+</details>
+<details>
+  <summary>Save the current time as an object.</summary>
+  
+    <code>
+    ti <- Sys.time()
+    </code>
+</details>
+<details>
+  <summary>Factors store categorical information. Make a factor with two categories of length four.</summary>
+  
+    <code>
+    an <- factor(c("elephant", "tiger", "elephant", "elephant"))
+    </code>
+</details>
+<details>
+  <summary>Check the type of a vector defined as <code>c("ace", "spades", 1)</code></summary>
+  
+    <code>
+    c("ace", "spades", 1)
+    [1] "ace" "spades" "1"
+    </code>
+</details>
+<details>
+  <summary>What is the sum of <code>c(TRUE, TRUE, FALSE)</code>?</summary>
+  
+    <code>
+    [1] 2
+    </code>
+</details>
+<details>
+  <summary>Lists won't coerce types. Make a card with <code>list</code>.</summary>
+  
+    <code>
+    card <- list("ten", "clubs", 10)
+    </code>
+</details>
+<details>
+  <summary>Data frames store data well. Store some cards in a data frame.</summary>
+  
+    <code>
+    df <- data.frame(face = c("ace", "two", "six"),  
+  					 suit = c("clubs", "clubs", "clubs"), 
+  					 value = c(1, 2, 3)
+  					)
+    </code>
+</details>
+<details>
+  <summary>Import a csv into R.</summary>
+  
+    Click "Import Dataset" in the top right. Then click "From Text File". Then click "Import" in the bottom right.
+</details>
+<details>
+  <summary>Save your data frame as a csv.</summary>
+  
+    <code>
+    write.csv(df, file = "threecards.csv", row.names = FALSE)
+    </code>
+</details>
+
