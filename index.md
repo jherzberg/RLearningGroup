@@ -91,13 +91,6 @@ You don't need to download R to participate in the weekly discussion. You do nee
     </code>
 </details>
 <details>
-  <summary>Plot a histogram.</summary>
-  
-    <code>
-    qplot(x, binwidth=1)
-    </code>
-</details>
-<details>
   <summary>Explain how the <code>binwidth</code> argument works.</summary>
   
     The first bin is defined by a left open bound on the least element of the list, and a right closed bound <code>binwidth</code> greater than the least element. Then each successive bin has range <code>binwidth</code> and two closed bounds.
