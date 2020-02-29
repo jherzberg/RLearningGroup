@@ -64,15 +64,79 @@ You don't need to download R to participate in the weekly discussion. You do nee
 </details>
 
 ### Chapter 2
-1. Install `ggplot`, which includes `qplot`.
-2. Import `qplot`.
-3. Plot a scatter plot.
-4. Plot a histogram.
-5. Explain how the `binwidth` argument works.
-6. Use the `replicate` function to produce 10 rolls of a die, using `roll` from Chapter 1. 
-7. Use the `replicate` function to produce an array.
-8. Use the `roll` function 1000 times to check the fairness of your dice.
-9. Use the `prob` argument of the `sample` function to weight your dice.
-10. Use `qplot` to plot the histogram of results of your weighted dice.
+<details>
+  <summary>Install <code>ggplot</code>, which includes <code>qplot</code>.</summary>
+  
+    <code>install.packages("ggplot2")</code>
+</details>
+<details>
+  <summary>Import <code>qplot</code>.</summary>
+  
+    <code>library("ggplot2")</code>
+</details>
+<details>
+  <summary>Plot a scatter plot.</summary>
+  
+    <code>
+    x <- c(-1, -0.8, -0.6, -0.4, -0.2, 0, 0.2, 0.4, 0.6, 0.8, 1)
+    y <- x^3
+    qplot(x, y)
+    </code>
+</details>
+<details>
+  <summary>Plot a histogram.</summary>
+  
+    <code>
+    qplot(x, binwidth=1)
+    </code>
+</details>
+<details>
+  <summary>Plot a histogram.</summary>
+  
+    <code>
+    qplot(x, binwidth=1)
+    </code>
+</details>
+<details>
+  <summary>Explain how the `binwidth` argument works.</summary>
+  
+    The first bin is defined by a left open bound on the least element of the list, and a right closed bound <code>binwidth</code> greater than the least element. Then each successive bin has range <code>binwidth</code> and two closed bounds.
+</details>
+<details>
+  <summary>Use the `replicate` function to produce 10 rolls of a die, using `roll` from Chapter 1. </summary>
+  
+    <code>
+    replicate(10, roll())
+    </code>
+</details>
+<details>
+  <summary>Use the `replicate` function to produce an array.</summary>
+  
+    <code>
+    replicate(3, c(1, 2, 3))
+    </code>
+</details>
+<details>
+  <summary>Use the `roll` function 1000 times to check the fairness of your dice.</summary>
+  
+    <code>
+    rolls <- replicate(10000, roll())
+    qplot(rolls, binwidth = 1)
+    </code>
+</details>
+<details>
+  <summary>Use the `prob` argument of the `sample` function to weight your dice.</summary>
+  
+    <code>
+    roll <- function() {
+    die <- 1:6
+    dice <- sample(die, size = 2, replace = TRUE, 
+      prob = c(1/8, 1/8, 1/8, 1/8, 1/8, 3/8))
+    sum(dice)
+     }
+    rolls <- replicate(10000, roll())
+    qplot(rolls, binwidth = 1)
+    </code>
+</details>
 
 ### Chapter 3
