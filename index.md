@@ -98,26 +98,26 @@ You don't need to download R to participate in the weekly discussion. You do nee
     </code>
 </details>
 <details>
-  <summary>Explain how the `binwidth` argument works.</summary>
+  <summary>Explain how the <code>binwidth</code> argument works.</summary>
   
     The first bin is defined by a left open bound on the least element of the list, and a right closed bound <code>binwidth</code> greater than the least element. Then each successive bin has range <code>binwidth</code> and two closed bounds.
 </details>
 <details>
-  <summary>Use the `replicate` function to produce 10 rolls of a die, using `roll` from Chapter 1. </summary>
+  <summary>Use the <code>replicate</code> function to produce 10 rolls of a die, using `roll` from Chapter 1. </summary>
   
     <code>
     replicate(10, roll())
     </code>
 </details>
 <details>
-  <summary>Use the `replicate` function to produce an array.</summary>
+  <summary>Use the <code>replicate</code> function to produce an array.</summary>
   
     <code>
     replicate(3, c(1, 2, 3))
     </code>
 </details>
 <details>
-  <summary>Use the `roll` function 1000 times to check the fairness of your dice.</summary>
+  <summary>Use the <code>roll</code> function 1000 times to check the fairness of your dice.</summary>
   
     <code>
     rolls <- replicate(10000, roll())
@@ -125,7 +125,7 @@ You don't need to download R to participate in the weekly discussion. You do nee
     </code>
 </details>
 <details>
-  <summary>Use the `prob` argument of the `sample` function to weight your dice.</summary>
+  <summary>Use the <code>prob</code> argument of the <code>sample</code> function to weight your dice.</summary>
   
     <code>
     roll <- function() {
